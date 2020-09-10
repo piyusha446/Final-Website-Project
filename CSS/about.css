@@ -1,0 +1,276 @@
+/**************************************************************/
+/************************about us******************************/
+/**************************************************************/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Arial;
+	text-align: center;
+}
+header{
+	height: 100px;
+	background: #333;
+	opacity: 85%;
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+}
+.logo{
+	width: 28%;
+	float: left;
+	line-height: 100px;
+	margin-left: 30px;
+}
+nav{
+	float: right;
+	line-height: 100px;
+	overflow: hidden;
+	padding-right: 80px;
+}
+nav a{
+	text-decoration: none;
+	margin:0 10px;
+	color: #fff;
+	font-size: 17px;
+	margin-left: 30px;
+	padding: 4px;
+}
+nav i{
+	padding-left: 10px;
+}
+nav a:hover{
+	color: #000;
+	background:#939393;
+	border-radius: 20px;
+}
+nav .active{
+	color: #000;
+	background:#939393;
+	border-radius: 20px;
+}
+.container{		/*black box*/
+	position: relative;
+	width: 1200px;
+	height: 625px;
+	margin: 240px auto;
+	margin-top: 60px;
+}
+.container h1{
+	color: #333;
+	font-size: 30px;
+	text-align: center;
+	margin-top: -60px;
+	padding:150px;
+	letter-spacing: 2px;
+}
+.container .box{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background:#000;
+	color: #fff;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: -120px;
+}
+.container .box .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:#4caf50;
+	transition: 0.5s;
+	z-index: 1;
+}
+.container .box:hover .icon{
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.container .box .content{
+	height: calc(100% - 100px);
+	text-align: center;
+	padding:10px;
+	box-sizing: border-box;
+	height: 100%;
+	transition: 0.5s;
+	opacity: 0;
+	margin-top: 110px;
+}
+.container .box:hover .content{
+	top: 100%;
+	opacity: 1;
+}
+.container .box .content h2{
+	margin: 0 ;
+	padding: 0;
+	color: #fff;
+}
+.container .box .content p{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.container .box:nth-child(2) .icon
+{
+	background: #319635;
+}
+.container .box:nth-child(2)
+{
+	background: #4caf50;
+}
+.container .box:nth-child(3) .icon
+{
+	background: #d03852;
+}
+.container .box:nth-child(3)
+{
+	background: #f54967;
+}
+.container .box:nth-child(4) .icon
+{
+	background: #23798e
+}
+.container .box:nth-child(4)
+{
+	background: #328fa5;
+}
+.paragraph{
+	margin: 0;
+	padding: 20px;
+}
+.paragraph p{
+	color: #000;
+	font-size: 16px;
+	text-align: justify;
+}
+.subscribe3{
+	position: relative;
+	top: 215%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.subscribe3 h1{
+	color: #333;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.form3{
+	position: absolute;
+	left: 37%;
+	margin-top: -50px;
+}
+textarea::placeholder{
+	color: gray;
+	padding-top: 6px;
+	padding-left: 6px;
+}
+footer{
+	bottom: 0;
+	background-color: #444444;
+	color: #fff;
+	width: 100%;
+	text-align:left;
+}
+.bottomleft{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+.bottomnav{
+	margin-top: 10px;
+	overflow: hidden;
+	font-size: 16px;
+}
+.bottomnav li{
+	list-style: none;
+}
+.bottomnav li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+}
+.bottomleft span{
+	display: block;
+	margin: 0;
+	font-size: 18px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bottomcenter{
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	margin-left: 90px;
+}
+.bottomcenter span{
+	display: block;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.icons{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.icons a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	margin-left: 60px;
+}
+.bottomright{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	float: right;
+}
+.bottomright span{
+	display: block;
+	margin: 0;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bottomright i{
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+.bottomright p{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 16px;
+}
+.bottomright p a{
+	text-decoration: none;
+	color: #fff;
+}
+.Copyright{
+	font-size: 12px;
+	font-weight: normal;
+	margin:0;
+	text-align: center;
+	margin-left: 250px;
+}
