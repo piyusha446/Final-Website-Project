@@ -125,6 +125,7 @@ nav .active{
 	width: 100px;
 	height: 100px;
 	padding: 10px;
+	border-radius: 50%;
 }
 .subscribe{
 	position: relative;
