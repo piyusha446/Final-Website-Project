@@ -1,0 +1,253 @@
+/**************************************************************/
+/************************home page*****************************/
+/**************************************************************/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Arial;
+	text-align: center;
+}
+header{
+	height: 100px;
+	background: #333;
+	opacity: 85%;
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+}
+.logo{
+	width: 28%;
+	float: left;
+	line-height: 100px;
+	margin-left: 30px;
+}
+nav{
+	float: right;
+	line-height: 100px;
+	overflow: hidden;
+	padding-right: 80px;
+}
+nav a{
+	text-decoration: none;
+	margin:0 10px;
+	color: #fff;
+	font-size: 17px;
+	margin-left: 30px;
+	padding: 4px;
+}
+nav i{
+	padding-left: 10px;
+}
+nav a:hover{
+	color: #000;
+	background:#939393;
+	border-radius: 20px;
+}
+nav .active{
+	color: #000;
+	background:#939393;
+	border-radius: 20px;
+}
+.content-area{
+	width: 100%;
+	position: relative;
+	top: auto;
+	height: 1500;
+}
+.content-area h1{
+	margin: 0;
+	padding-top: 30px;
+	letter-spacing: 2px;
+	color: #333;
+	font-size: 30px;
+}
+.content-area p{
+	font-family: Helvetica;
+	line-height: 25px;
+	font-size: 17px;
+}
+.wrapper1{
+	position: relative;
+	text-align: center;
+}
+.wrapper1 h1{			/*Our Team*/
+	text-align: center;
+	color: #333;
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin-top: 20px;
+}
+.team{ 				/*6 people lines*/
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-top: 50px;
+}
+.team .members{				/*pink*/
+	background: #FBF1FE;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	line-height: 20px;
+	color: #8e8b8b;
+	position: relative;
+}
+.team .members h3{
+	color: #000;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.team .members p.role{
+	color: #B7B7B7 ;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 12px 0;
+}
+.team .members p{
+	font-size: 15px;
+	margin: 12px 0;
+}
+.team .members .team_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.team .members .team_img img{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+.subscribe{
+	position: relative;
+	top: 215%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.subscribe h1{
+	color: #333;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.form{
+	position: absolute;
+	left: 36%;
+	margin-top: -50px;
+}
+textarea::placeholder{
+	color: gray;
+	padding-top: 6px;
+	padding-left: 6px;
+}
+.map iframe{
+	width: 100%;
+}
+footer{
+	background-color: #444444;
+	color: #fff;
+	width: 100%;
+	text-align:left;
+}
+.bottomleft{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+.bottomnav{
+	margin-top: 10px;
+	overflow: hidden;
+	font-size: 16px;
+}
+.bottomnav li{
+	list-style: none;
+}
+.bottomnav li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+}
+.bottomleft span{
+	display: block;
+	margin: 0;
+	font-size: 18px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bottomcenter{
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	margin-left: 90px;
+}
+.bottomcenter span{
+	display: block;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.icons{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.icons a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	margin-left: 60px;
+}
+.bottomright{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	float: right;
+}
+.bottomright span{
+	display: block;
+	margin: 0;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bottomright i{
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+.bottomright p{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 16px;
+}
+.bottomright p a{
+	text-decoration: none;
+	color: #fff;
+}
+.Copyright{
+	font-size: 12px;
+	font-weight: normal;
+	margin: -10px;
+	text-align: center;
+	margin-right: 150px;
+}
